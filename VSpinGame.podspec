@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
-Wheel spinning game makes your app look fantastic!
+VSpinGame - Wheel spinning game makes your app look fantastic!
                        DESC
 
   s.homepage         = 'https://github.com/vandanapansuria/VSpinGame'
