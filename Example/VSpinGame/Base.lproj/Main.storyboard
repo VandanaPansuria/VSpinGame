@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0qb-3f-uUt">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Spin the Wheel-->
+        <scene sceneID="pDt-cM-2vV">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="bRg-Qr-veb" customClass="ViewController" customModule="VSpinGame_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZLC-Gl-2Y8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsY-1Y-DbO">
+                                <rect key="frame" x="10" y="156" width="355" height="355"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8j-MC-9Df" customClass="VSpinGame" customModule="VSpinGame">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="355"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s8j-MC-9Df" secondAttribute="trailing" id="8bQ-YT-GA3"/>
+                                    <constraint firstItem="s8j-MC-9Df" firstAttribute="top" secondItem="tsY-1Y-DbO" secondAttribute="top" id="NDa-ey-NWK"/>
+                                    <constraint firstAttribute="width" secondItem="tsY-1Y-DbO" secondAttribute="height" id="UmK-2G-Rfe"/>
+                                    <constraint firstItem="s8j-MC-9Df" firstAttribute="leading" secondItem="tsY-1Y-DbO" secondAttribute="leading" id="aMJ-ed-EYN"/>
+                                    <constraint firstAttribute="bottom" secondItem="s8j-MC-9Df" secondAttribute="bottom" id="ean-o4-aad"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O09-bR-V5Q">
+                                <rect key="frame" x="25" y="607" width="325" height="40"/>
+                                <color key="backgroundColor" red="0.99215686274509807" green="0.68235294117647061" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7nm-cr-g8d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Spin!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onStartTap:" destination="bRg-Qr-veb" eventType="touchUpInside" id="Uod-AN-lDM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cNU-rT-oAj"/>
+                        <color key="backgroundColor" red="0.015686274509803921" green="0.050980392156862744" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tsY-1Y-DbO" firstAttribute="centerX" secondItem="ZLC-Gl-2Y8" secondAttribute="centerX" id="05Z-Ce-og6"/>
+                            <constraint firstItem="O09-bR-V5Q" firstAttribute="centerX" secondItem="ZLC-Gl-2Y8" secondAttribute="centerX" id="4aW-mi-VUM"/>
+                            <constraint firstAttribute="trailing" secondItem="tsY-1Y-DbO" secondAttribute="trailing" constant="10" id="Gsm-cV-yAp"/>
+                            <constraint firstItem="tsY-1Y-DbO" firstAttribute="centerY" secondItem="ZLC-Gl-2Y8" secondAttribute="centerY" id="KbN-1Z-wLk"/>
+                            <constraint firstItem="cNU-rT-oAj" firstAttribute="bottom" secondItem="O09-bR-V5Q" secondAttribute="bottom" constant="20" id="fjy-ya-Tcm"/>
+                            <constraint firstItem="O09-bR-V5Q" firstAttribute="leading" secondItem="cNU-rT-oAj" secondAttribute="leading" constant="25" id="h7J-O9-SEU"/>
+                            <constraint firstItem="cNU-rT-oAj" firstAttribute="trailing" secondItem="O09-bR-V5Q" secondAttribute="trailing" constant="25" id="mWl-fG-PyK"/>
+                            <constraint firstItem="tsY-1Y-DbO" firstAttribute="leading" secondItem="ZLC-Gl-2Y8" secondAttribute="leading" constant="10" id="oVq-UY-4dM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Spin the Wheel" id="7Kj-7F-xRT">
+                        <barButtonItem key="leftBarButtonItem" image="chevron" id="NX1-9n-9SR">
+                            <color key="tintColor" red="0.21960784310000001" green="0.08235294118" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="btnBack:" destination="bRg-Qr-veb" id="17C-sZ-3Gl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="wheelGame" destination="s8j-MC-9Df" id="Y7t-7n-64T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5dh-rL-hFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="79"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GDM-OK-U0t">
+            <objects>
+                <navigationController id="0qb-3f-uUt" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="653-mS-qW6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.21960784310000001" green="0.08235294118" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pqd-xN-TKr" kind="relationship" relationship="rootViewController" id="ZVw-Kq-zKk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hyM-9n-aNf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-343" y="79"/>
+        </scene>
+        <!--Wheel Game-->
+        <scene sceneID="rhC-Sj-8ZI">
+            <objects>
+                <viewController id="pqd-xN-TKr" customClass="DashboardVC" customModule="VSpinGame_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="moV-FS-aAe"/>
+                        <viewControllerLayoutGuide type="bottom" id="hbk-4b-pr3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pq8-pH-uhR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUI-1Q-qqS">
+                                <rect key="frame" x="87.5" y="313.5" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.99215686274509807" green="0.68235294117647061" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SMa-Lx-atL"/>
+                                    <constraint firstAttribute="width" constant="200" id="t70-cC-0LL"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Spin the Wheel">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWheelgameTap:" destination="pqd-xN-TKr" eventType="touchUpInside" id="vos-yb-ZI2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VUI-1Q-qqS" firstAttribute="centerY" secondItem="pq8-pH-uhR" secondAttribute="centerY" id="vWa-sX-ak2"/>
+                            <constraint firstItem="VUI-1Q-qqS" firstAttribute="centerX" secondItem="pq8-pH-uhR" secondAttribute="centerX" id="yAI-BH-gfm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wheel Game" id="szq-wG-F4b"/>
+                    <connections>
+                        <segue destination="bRg-Qr-veb" kind="show" identifier="wheelgame" id="jcB-1x-VyR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0r-aZ-aYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron" width="12" height="21"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
