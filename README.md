@@ -29,9 +29,11 @@ pod 'VSpinGame'
 ## Integrate
 
 Import VSpinGame into ViewController.swift
+
 ![alt text](https://github.com/VandanaPansuria/VSpinGame/blob/master/Example/images/Screenshot%20at%20Jan%2011%2011-17-40.png)
 
 Then click on the UIView you added and go to the Identity Inspector. Set the class to VSpinGame:
+
 ![alt text](https://github.com/VandanaPansuria/VSpinGame/blob/master/Example/images/Screenshot%20at%20Jan%2011%2011-15-51.png)
 
 Initialize VSpinGame within
@@ -99,6 +101,7 @@ public extension TextPreferences {
 ```
 
 Now let's connect these to outlets. and connect it to an Outlet named wheelGame.
+
 ![alt text](https://github.com/VandanaPansuria/VSpinGame/blob/master/Example/images/Screenshot%20at%20Jan%2011%2011-16-59.png)
 
 We want to make the View Controller implement the VSpinGameDelegate protocol, At this point ViewController.Swift should look like the following:
@@ -132,7 +135,6 @@ When wheel start to rotate, it will execute `onStart` method with instance of VS
 }
 ```
 
-Starts indefinite rotation and stops rotation at the specified index
 ## Author
 
 vandanapansuria, vandanapansuria@gmail..com
