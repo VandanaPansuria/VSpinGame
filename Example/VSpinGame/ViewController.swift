@@ -25,6 +25,7 @@ struct VDict {
     return dict
   }
 }
+
 //MARK:- ViewController
 class ViewController: UIViewController {
     @IBOutlet weak var wheelGame: VSpinGame! {
@@ -118,3 +119,4 @@ public extension TextPreferences {
         return textPreferences
     }
 }
+

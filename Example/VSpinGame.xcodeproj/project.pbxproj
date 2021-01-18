@@ -14,6 +14,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8E9871E025AA08A1006C45F7 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871DF25AA08A0006C45F7 /* DashboardVC.swift */; };
+		8EAFB0AD25AC1E9500995FE6 /* Screenshot at Jan 11 11-16-59.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB0AA25AC1E9400995FE6 /* Screenshot at Jan 11 11-16-59.png */; };
+		8EAFB0AE25AC1E9500995FE6 /* Screenshot at Jan 11 11-17-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB0AB25AC1E9400995FE6 /* Screenshot at Jan 11 11-17-40.png */; };
+		8EAFB0AF25AC1E9500995FE6 /* Screenshot at Jan 11 11-15-51.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB0AC25AC1E9400995FE6 /* Screenshot at Jan 11 11-15-51.png */; };
+		8EAFB0B525AC40D800995FE6 /* screenrecording.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB0B425AC40D800995FE6 /* screenrecording.gif */; };
 		B25132373B3F25C67FB18478 /* Pods_VSpinGame_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE87F78B0F074C3CE8683AEB /* Pods_VSpinGame_Example.framework */; };
 		D7312E20629D3E140D6109DA /* Pods_VSpinGame_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF58970C8451EA3EE29DE /* Pods_VSpinGame_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +50,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89DFB7289D8DD3B6A4A498E8 /* Pods-VSpinGame_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSpinGame_Tests.release.xcconfig"; path = "Target Support Files/Pods-VSpinGame_Tests/Pods-VSpinGame_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8E9871DF25AA08A0006C45F7 /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		8EAFB0AA25AC1E9400995FE6 /* Screenshot at Jan 11 11-16-59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot at Jan 11 11-16-59.png"; sourceTree = "<group>"; };
+		8EAFB0AB25AC1E9400995FE6 /* Screenshot at Jan 11 11-17-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot at Jan 11 11-17-40.png"; sourceTree = "<group>"; };
+		8EAFB0AC25AC1E9400995FE6 /* Screenshot at Jan 11 11-15-51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot at Jan 11 11-15-51.png"; sourceTree = "<group>"; };
+		8EAFB0B425AC40D800995FE6 /* screenrecording.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenrecording.gif; sourceTree = "<group>"; };
 		971AF58970C8451EA3EE29DE /* Pods_VSpinGame_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSpinGame_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F1AB24E0D169ED1946F990 /* Pods-VSpinGame_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSpinGame_Example.release.xcconfig"; path = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE87F78B0F074C3CE8683AEB /* Pods_VSpinGame_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSpinGame_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +114,7 @@
 		607FACD21AFB9204008FA782 /* Example for VSpinGame */ = {
 			isa = PBXGroup;
 			children = (
+				8EAFB0A925AC1E9400995FE6 /* images */,
 				8E9871DF25AA08A0006C45F7 /* DashboardVC.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -152,6 +161,17 @@
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
+		};
+		8EAFB0A925AC1E9400995FE6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8EAFB0B425AC40D800995FE6 /* screenrecording.gif */,
+				8EAFB0AA25AC1E9400995FE6 /* Screenshot at Jan 11 11-16-59.png */,
+				8EAFB0AB25AC1E9400995FE6 /* Screenshot at Jan 11 11-17-40.png */,
+				8EAFB0AC25AC1E9400995FE6 /* Screenshot at Jan 11 11-15-51.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 		8F877F7526C0F759F5DB9102 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -249,9 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAFB0AF25AC1E9500995FE6 /* Screenshot at Jan 11 11-15-51.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				8EAFB0AD25AC1E9500995FE6 /* Screenshot at Jan 11 11-16-59.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				8EAFB0B525AC40D800995FE6 /* screenrecording.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				8EAFB0AE25AC1E9500995FE6 /* Screenshot at Jan 11 11-17-40.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
