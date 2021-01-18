@@ -64,7 +64,8 @@ extension PinImageView {
     }
     func image(name: String?) {
         guard let imageName = name, imageName != "" else {
-            self.image = nil
+            let bundle = Bundle(for: VSpinGame.self)
+            self.image = UIImage(named: "pin", in: bundle, compatibleWith: nil)
             return
         }
         self.image = UIImage(named: imageName)

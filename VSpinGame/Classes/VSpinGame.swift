@@ -35,7 +35,7 @@ public class VSpinGame: UIControl {
     public var delegate: VSpinGameDelegate?
     public var onEdgeCollision: ((_ progress: Double?) -> Void)?
     public var onCenterCollision: ((_ progress: Double?) -> Void)?
-    public var edgeCollisionDetectionOn: Bool = false
+    public var edgeCollisionDetectionOn: Bool = true
     public var centerCollisionDetectionOn: Bool = false
     public var pinImageViewCollisionEffect: CollisionEffect?
     private var vwheelView: VWheelView?
@@ -69,6 +69,8 @@ public class VSpinGame: UIControl {
         setup()
     }
     private func setup() {
+        configuration = .vWheelspinconfiguration
+        pinImageViewCollisionEffect = CollisionEffect(force: 8, angle: 20)
         setupVWheelView()
         setupPinImageView()
     }

@@ -34,9 +34,9 @@ VSpinGame - Wheel spinning game makes your app look fantastic!
 
   s.source_files = 'VSpinGame/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'VSpinGame' => ['VSpinGame/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'VSpinGame' => ['VSpinGame/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

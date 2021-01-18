@@ -7,6 +7,28 @@
 
 import Foundation
 import UIKit
+public extension VConfiguration {
+    static var vWheelspinconfiguration: VConfiguration {
+        let pin = VConfiguration.PinImageViewPreferences(size: CGSize(width: 30,height: 50), position: .top, verticalOffset: -20)
+        let sliceBackgroundColorType = VConfiguration.ColorType.evenOddColors(evenColor:  #colorLiteral(red: 0.07843137255, green: 0.1019607843, blue: 0.1176470588, alpha: 1), oddColor: #colorLiteral(red: 0.01568627451, green: 0.05098039216, blue: 0.07843137255, alpha: 1))
+        let slicePreferences = VConfiguration.SlicePreferences(backgroundColorType: sliceBackgroundColorType, strokeWidth: 0, strokeColor: #colorLiteral(red: 0.07843137255, green: 0.1019607843, blue: 0.1176470588, alpha: 1))
+        let circlePreferences = VConfiguration.CirclePreferences(strokeWidth: 14, strokeColor: #colorLiteral(red: 0.07843137255, green: 0.1019607843, blue: 0.1176470588, alpha: 1))
+        let wheelPreferences = VConfiguration.WheelPreferences(circlePreferences: circlePreferences, slicePreferences: slicePreferences, startPosition: .top)
+        let configuration = VConfiguration(wheelPreferences: wheelPreferences, pinPreferences: pin)
+        return configuration
+    }
+}
+
+public extension TextPreferences {
+    static var WheelText: TextPreferences {
+        var textPreferences = TextPreferences(textColorType: VConfiguration.ColorType.customPatternColors(colors: nil, defaultColor: .white),font: .systemFont(ofSize: 16, weight: .bold),verticalOffset: 12)
+        textPreferences.orientation = .vertical
+        textPreferences.horizontalOffset = 0
+        textPreferences.alignment = .right
+        return textPreferences
+    }
+}
+
 public struct VConfiguration {
     public var pinPreferences: PinImageViewPreferences?
     public var wheelPreferences: WheelPreferences

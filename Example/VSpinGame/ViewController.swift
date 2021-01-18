@@ -31,11 +31,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var wheelGame: VSpinGame! {
         didSet {
             wheelGame.delegate = self
-            wheelGame.configuration = .vWheelspinconfiguration
+           // wheelGame.configuration = .vWheelspinconfiguration
             wheelGame.slices = slices
-            wheelGame.pinImage = "pin"
-            wheelGame.pinImageViewCollisionEffect = CollisionEffect(force: 8, angle: 20)
-            wheelGame.edgeCollisionDetectionOn = true
+            //wheelGame.pinImage = "pin"
+            //wheelGame.pinImageViewCollisionEffect = CollisionEffect(force: 8, angle: 20)
+            //wheelGame.edgeCollisionDetectionOn = true
         }
     }
     let p1 = VDict(id: "1", displayText: "$50", value: "50", currency: "USD")
