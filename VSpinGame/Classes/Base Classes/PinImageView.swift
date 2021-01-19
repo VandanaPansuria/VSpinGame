@@ -70,7 +70,6 @@ extension PinImageView {
         }
         self.image = UIImage(named: imageName)
     }
- 
     func configure(with preferences: VConfiguration.PinImageViewPreferences?) {
         self.backgroundColor = preferences?.backgroundColor
         self.tintColor = preferences?.tintColor

@@ -1,6 +1,6 @@
 {
   "name": "VSpinGame",
-  "version": "11.5",
+  "version": "11.6",
   "summary": "VSpinGame - Custom pod creation for iOS",
   "description": "TODO: Add long description of the pod here.\nVSpinGame - Wheel spinning game makes your app look fantastic!",
   "homepage": "https://github.com/vandanapansuria/VSpinGame",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/vandanapansuria/VSpinGame.git",
-    "tag": "11.5"
+    "tag": "11.6"
   },
   "swift_versions": "5.0",
   "platforms": {
