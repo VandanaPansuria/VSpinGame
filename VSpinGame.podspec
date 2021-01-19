@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VSpinGame'
-  s.version          = '11.6'
+  s.version          = '11.7'
   s.summary          = 'VSpinGame - Custom pod creation for iOS'
 
 # This description is used to generate tags and improve search results.
