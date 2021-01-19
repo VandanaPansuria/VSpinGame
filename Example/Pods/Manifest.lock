@@ -1,5 +1,5 @@
 PODS:
-  - VSpinGame (0.1.0)
+  - VSpinGame (11.5)
 
 DEPENDENCIES:
   - VSpinGame (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VSpinGame: 311e4c3648f04e37100f66ab94e8ec8ae8f2d581
+  VSpinGame: 1f2d424c16dda1798f3f4dd24c08b7f344e6a729
 
 PODFILE CHECKSUM: bf541f22967cca5f7d3049642a8a05003e3a6e42
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

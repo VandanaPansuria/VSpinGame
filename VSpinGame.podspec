@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VSpinGame'
-  s.version          = '11.5'
+  s.version          = '11.6'
   s.summary          = 'VSpinGame - Custom pod creation for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,11 @@ VSpinGame - Wheel spinning game makes your app look fantastic!
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'VSpinGame/Classes/**/*'
-  
-   s.resource_bundles = {
-     'VSpinGame' => ['VSpinGame/Assets/*.png']
-   }
+ 
+ s.resource_bundles = {
+     'VSpinGame' => ['VSpinGame/Assets/*.png','VSpinGame/Assets/*.xcassets','VSpinGame/Resources/*.png']
+ }
+ s.resources = "VSpinGame/**/*.{png,json}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

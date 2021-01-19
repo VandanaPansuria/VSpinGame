@@ -7,171 +7,227 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04558C88D6CA92D4095A69B095D3215E /* VSpinGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C3593993C490CB4952D8637101190C /* VSpinGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EC73CE970B6CD926FB2A3D5CDA93DBC /* Pods-VSpinGame_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F63E438F866E7EE027529810E0FF9 /* Pods-VSpinGame_Tests-dummy.m */; };
-		21CB65825A6BA1013897B4A3BB0C853C /* Pods-VSpinGame_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1D6DF3D6333AF629C36DF81C3410E6 /* Pods-VSpinGame_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4719BAA1949E67EAC4609AE0FC422650 /* VSpinGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BCAB69B67F2FFA3E07AB702D88FA8A /* VSpinGame-dummy.m */; };
-		5D8929AEBA08D192D239E5429908D74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5F1668D3F756399DC85993C9AA0E1913 /* VSpinGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2158330F1E1679CD9FE8554AF0F577 /* VSpinGame.swift */; };
-		8E9871B625AA0781006C45F7 /* TextPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719025AA0781006C45F7 /* TextPreferences.swift */; };
-		8E9871B725AA0781006C45F7 /* VWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719125AA0781006C45F7 /* VWheelView.swift */; };
-		8E9871B825AA0781006C45F7 /* SliceCalculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719225AA0781006C45F7 /* SliceCalculating.swift */; };
-		8E9871B925AA0781006C45F7 /* ImpactFeedbackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719325AA0781006C45F7 /* ImpactFeedbackable.swift */; };
-		8E9871BA25AA0781006C45F7 /* LinePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719425AA0781006C45F7 /* LinePreferences.swift */; };
-		8E9871BB25AA0781006C45F7 /* ImagePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719525AA0781006C45F7 /* ImagePreferences.swift */; };
-		8E9871BC25AA0781006C45F7 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719725AA0781006C45F7 /* UIFont+Extension.swift */; };
-		8E9871BD25AA0781006C45F7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719825AA0781006C45F7 /* UIView+Extension.swift */; };
-		8E9871BE25AA0781006C45F7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719925AA0781006C45F7 /* UIImage+Extension.swift */; };
-		8E9871BF25AA0781006C45F7 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719A25AA0781006C45F7 /* Color+Extension.swift */; };
-		8E9871C025AA0781006C45F7 /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719B25AA0781006C45F7 /* CGSize+Extension.swift */; };
-		8E9871C125AA0781006C45F7 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719C25AA0781006C45F7 /* Array+Extension.swift */; };
-		8E9871C225AA0781006C45F7 /* SpinningAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719D25AA0781006C45F7 /* SpinningAnimatable.swift */; };
-		8E9871C325AA0781006C45F7 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719E25AA0781006C45F7 /* Calc.swift */; };
-		8E9871C425AA0781006C45F7 /* PinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98719F25AA0781006C45F7 /* PinImageView.swift */; };
-		8E9871C525AA0781006C45F7 /* VWheelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A025AA0781006C45F7 /* VWheelLayer.swift */; };
-		8E9871C625AA0781006C45F7 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A125AA0781006C45F7 /* ImageDrawing.swift */; };
-		8E9871C725AA0781006C45F7 /* SliceDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A225AA0781006C45F7 /* SliceDrawing.swift */; };
-		8E9871C825AA0781006C45F7 /* VConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A325AA0781006C45F7 /* VConfiguration.swift */; };
-		8E9871C925AA0781006C45F7 /* CAAnimation+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A525AA0781006C45F7 /* CAAnimation+Duration.swift */; };
-		8E9871CA25AA0781006C45F7 /* CALayer+UpdateValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A625AA0781006C45F7 /* CALayer+UpdateValues.swift */; };
-		8E9871CB25AA0781006C45F7 /* CAAnimationGroup+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A725AA0781006C45F7 /* CAAnimationGroup+Builder.swift */; };
-		8E9871CC25AA0781006C45F7 /* SpinningWheelAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A825AA0781006C45F7 /* SpinningWheelAnimator.swift */; };
-		8E9871CD25AA0781006C45F7 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871A925AA0781006C45F7 /* String-Extension.swift */; };
-		8E9871CE25AA0781006C45F7 /* Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871AA25AA0781006C45F7 /* Slice.swift */; };
-		8E9871CF25AA0781006C45F7 /* CurveTextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871AB25AA0781006C45F7 /* CurveTextDrawing.swift */; };
-		8E9871D025AA0781006C45F7 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871AC25AA0781006C45F7 /* TextDrawing.swift */; };
-		8E9871D125AA0781006C45F7 /* WheelMathCalculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871AD25AA0781006C45F7 /* WheelMathCalculating.swift */; };
-		8E9871D225AA0781006C45F7 /* ShapeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871AE25AA0781006C45F7 /* ShapeDrawing.swift */; };
-		8E9871D325AA0781006C45F7 /* ContinuousCollisionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B025AA0781006C45F7 /* ContinuousCollisionCalculator.swift */; };
-		8E9871D425AA0781006C45F7 /* PinImageViewCollisionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B125AA0781006C45F7 /* PinImageViewCollisionAnimator.swift */; };
-		8E9871D525AA0781006C45F7 /* CollisionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B225AA0781006C45F7 /* CollisionCalculator.swift */; };
-		8E9871D625AA0781006C45F7 /* CollisionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B325AA0781006C45F7 /* CollisionDetector.swift */; };
-		8E9871D725AA0781006C45F7 /* CollisionDetectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B425AA0781006C45F7 /* CollisionDetectable.swift */; };
-		8E9871D825AA0781006C45F7 /* CollisionEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9871B525AA0781006C45F7 /* CollisionEffect.swift */; };
-		8EEE618725B59B1A002A2F54 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEE618625B59B1A002A2F54 /* pin.png */; };
-		A835396D32454DABA0675FFACF0E32F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E1CC44E749B42721763936108BFDE004 /* Pods-VSpinGame_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C05347ACF3223E9E3F08C421D6E24 /* Pods-VSpinGame_Example-dummy.m */; };
-		F676A2DDFA37E615493A42EBEBA9DCE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FF8DB865956BA485A7F0B4DCF5BD8CD0 /* Pods-VSpinGame_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D59076C484122C0BB51F67879FD22BD9 /* Pods-VSpinGame_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CF554329510B4B1AB146E7426840197 /* SliceCalculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA703A4F69D5A20949582CA243CA6E /* SliceCalculating.swift */; };
+		14117221E7CF0AFA753E29D419110420 /* ImpactFeedbackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3EBB6DBD4E92A2B81B3D2D9E726DB /* ImpactFeedbackable.swift */; };
+		1742608D763455E230505AAF382DC528 /* Pods-VSpinGame_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C05347ACF3223E9E3F08C421D6E24 /* Pods-VSpinGame_Example-dummy.m */; };
+		1A8F2D15109887B2AA9067F1C4ED316C /* pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA485C294FF57AADCC549897656A8225 /* pin@3x.png */; };
+		1BC7B0E817248FC9C5473C010C9EDC78 /* SpinningWheelAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F4AF91EF61F2F6162B044AE6A4897 /* SpinningWheelAnimator.swift */; };
+		1D8CFCFAFE047D995D44EF229B9B9F06 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D5FD2F033B743FC6A65898ABA09BCA /* pin.png */; };
+		257B39CA95408E6079E8745127133CC0 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B3BD90AD8D80B17DA396284CD46FD /* ImageDrawing.swift */; };
+		2A214C05139A47859EF7435DAF37F606 /* LinePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F04937EFADBAE00DE0161C23B428 /* LinePreferences.swift */; };
+		2B1EA498BECF0197639950B4DCA14F0F /* VWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D867660FCBF99EB8443ECE72CFF98 /* VWheelView.swift */; };
+		2F48B46DDF706590746BD20FC5D99668 /* VSpinGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E31E873AF5859CBE922587C5412D479 /* VSpinGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE94086F7D740C20FA0D1B9CF39D6C2 /* Pods-VSpinGame_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1D6DF3D6333AF629C36DF81C3410E6 /* Pods-VSpinGame_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30705A2982CB39099355B2B7C5DA232F /* Pods-VSpinGame_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D59076C484122C0BB51F67879FD22BD9 /* Pods-VSpinGame_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366BF18A94E056E826E8042AD612D7AD /* CollisionEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF699FAC104B7387898576C5CEDF12 /* CollisionEffect.swift */; };
+		3739BFA0CF7C8420B73CAC15A13A3790 /* Pods-VSpinGame_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F63E438F866E7EE027529810E0FF9 /* Pods-VSpinGame_Tests-dummy.m */; };
+		3D2E25DAC83DD41AB2A46E651857BDE8 /* CAAnimationGroup+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F7C5F64A295CCD69CC3563729E1D4 /* CAAnimationGroup+Builder.swift */; };
+		3DA8FDAA5C0D5C767FAF10260ED0F170 /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680E699DE2E4D6FACAD9AFB07A04D1C /* CGSize+Extension.swift */; };
+		3E5260AFE29FC7BF02940BE7C08E13FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		508E62FC8D443A4E1A09098E0C9B0BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56DC28686E8B8E553DE808F1D0D8BEC1 /* CollisionDetectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A8CECEA3E1D09A6550A25830D70ED /* CollisionDetectable.swift */; };
+		570D10053F1C33D00D2D4D25E047DC10 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F0EB46F322D8255A96CD25C0D3940 /* Array+Extension.swift */; };
+		5DDC986F03A680B414EC5A5D226DB1C7 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CCF729DE2110C54666BD7BF2D162C3 /* UIFont+Extension.swift */; };
+		5DE9EEBFAC94D82BE3DE97C01A88E367 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDEDEF1D36F0514692B0E37BF49426 /* Calc.swift */; };
+		60B5D17B7727AC8716A0D0460839E463 /* VWheelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E71273FE49C7ABEFDA3D30F7A98363 /* VWheelLayer.swift */; };
+		63B1AA293A5826007B3C39A929F9DE60 /* ContinuousCollisionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C59A805A73599C9F5B89311399E32 /* ContinuousCollisionCalculator.swift */; };
+		6AB634A1EF3B694206868DEBFF818B63 /* CurveTextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94639A66F10DB9B837ADA39A48C6338E /* CurveTextDrawing.swift */; };
+		6ACC5A037446BD80C0C8F9FC818843EE /* SliceDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EE021AF99676745AB85B4A2E751DC /* SliceDrawing.swift */; };
+		7B1EFC5B3775ABB3A67912F1E125D145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D51D8E313D02BF992BB71C92250C81E /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002063C618912E81477E007C984D386 /* String-Extension.swift */; };
+		8B91427742681C6D5FF68B59965859B2 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A4B3FF287E7FEA2E230DDC0D6E4254 /* pin@2x.png */; };
+		9169D9AF4C72912FCAB2A0967620415A /* VSpinGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7278F9B635AADD8251467C65D80F4C /* VSpinGame-dummy.m */; };
+		9883940B414F1351DEDA8E9955DF49D9 /* VConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01A1CD0F10F506ED571D3284B7DF0BD /* VConfiguration.swift */; };
+		9F10590382F16787DA0BAF7A6830B02C /* PinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB38EFD7230D4A5855DE7253F747850 /* PinImageView.swift */; };
+		A0192EC0E48B94D9E0685A0FAE640D53 /* VSpinGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD4C7A55EF6037FDC9920FFA124EED /* VSpinGame.swift */; };
+		A3455FFCB2999564E1F9F47AE7C5EF81 /* CollisionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4898827D35E90D8020750E31EA7BEC /* CollisionDetector.swift */; };
+		A9CE20E8922E7652F731D53289B606E9 /* pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA485C294FF57AADCC549897656A8225 /* pin@3x.png */; };
+		ADEC3D97D5A444B36557FB2D72437AB9 /* WheelMathCalculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC7EF910CB824E3326C58E873CA749 /* WheelMathCalculating.swift */; };
+		B187C71C5395965721BECD6EA12E3168 /* ImagePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B769230DE645341F0D7FF1854BC774 /* ImagePreferences.swift */; };
+		B6A1E9C77502E5BFBC227177B7366B02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B24C2EE0D891AAAD0F190E56610B64 /* UIImage+Extension.swift */; };
+		B9079221FC7037D404859BB48C8791F7 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A4B3FF287E7FEA2E230DDC0D6E4254 /* pin@2x.png */; };
+		BA5E9C2CAEF80C7CAC9746EE97EF36B1 /* CollisionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BB0FDA93BB529BD6A34C0C970EF95 /* CollisionCalculator.swift */; };
+		BEAC614430C2893E278AC600AAF3F0DB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1B81CC5DEE0E165D51BA1EF34859F /* Color+Extension.swift */; };
+		CC6EC21CA42B1246970AA0F84B0F244A /* Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F560656FA0836B3D515DF34DA9270FAC /* Slice.swift */; };
+		D59D0A11F09DB50E30C01A8ECF34A694 /* PinImageViewCollisionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AB430DC44CC370760186AEC7A43F92 /* PinImageViewCollisionAnimator.swift */; };
+		D73D3E22CEBB00338438E34302E2AC05 /* ShapeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE755EFCBA0F4FCBE7A3128E75B631C /* ShapeDrawing.swift */; };
+		DA7B8B814ED52834485E1F37226D86F9 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D5FD2F033B743FC6A65898ABA09BCA /* pin.png */; };
+		E7A08BD58BC88A1C06C5A5192A6C4FAD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FABAF0762442834A0CEC2CD32743 /* UIView+Extension.swift */; };
+		EECCCC9452B282BACC86E4A37F7CB5AA /* VSpinGame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAEB4837D85F4307FE82E4CE795B209D /* VSpinGame.bundle */; };
+		F04565BE879881500748B3BDCD8842C5 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A39A4B988E8C5CD6DF469BA2A388 /* TextDrawing.swift */; };
+		F181FD433BEA2C3B11B14D18A67B607B /* SpinningAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC1AD55568F3EE16BAB92D779A88EA /* SpinningAnimatable.swift */; };
+		F41660AD31120898AF61FBAE090D7AD5 /* CALayer+UpdateValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9805C4C3FFCCEE6F6B397B2CFAE6A /* CALayer+UpdateValues.swift */; };
+		F4FD32B23F4E3223E9E8EC91003AD4BE /* CAAnimation+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF04A00C62A67C68F07697ED56C7E8 /* CAAnimation+Duration.swift */; };
+		FB894F2D691C709ADC3C00EC86B6D20D /* TextPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C880E070E8A3811B0C20EAB70E35C784 /* TextPreferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C0BB58B83777575CBEB59187C3AA975 /* PBXContainerItemProxy */ = {
+		22089761BED421779434EE463BD1B0C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6162B9FF358276EBC229F480BF132421;
-			remoteInfo = VSpinGame;
+			remoteGlobalIDString = CC5F301785D5DE4C7BCD86AF7EA4E811;
+			remoteInfo = "VSpinGame-VSpinGame";
 		};
-		8031E5587C358CB593E4E5BBD3CEFEF1 /* PBXContainerItemProxy */ = {
+		5CA0EF2F361CE52A0BDF227839DC9A8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B023B53AE7DA2AE71BFE1B4D4078707;
 			remoteInfo = "Pods-VSpinGame_Example";
 		};
+		8CD29766A22F6946E603E658005D7D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6162B9FF358276EBC229F480BF132421;
+			remoteInfo = VSpinGame;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C09C8616F879D5B7CF2A2CBC23E7F0D /* VSpinGame.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VSpinGame.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		01DD4C7A55EF6037FDC9920FFA124EED /* VSpinGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VSpinGame.swift; path = VSpinGame/Classes/VSpinGame.swift; sourceTree = "<group>"; };
+		05F3AAA15B687F1EC86E4C2D7676C7BE /* VSpinGame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSpinGame-prefix.pch"; sourceTree = "<group>"; };
 		0CEB82CEE41A4FC0407BCC7A9609C3D1 /* Pods-VSpinGame_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSpinGame_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		10EDFAAF422598437388AFE4A05D815F /* ResourceBundle-VSpinGame-VSpinGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VSpinGame-VSpinGame-Info.plist"; sourceTree = "<group>"; };
+		12BA703A4F69D5A20949582CA243CA6E /* SliceCalculating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SliceCalculating.swift; sourceTree = "<group>"; };
 		148939A2E6224B993AC2B7513F072C48 /* Pods-VSpinGame_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSpinGame_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15C3593993C490CB4952D8637101190C /* VSpinGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSpinGame-umbrella.h"; sourceTree = "<group>"; };
-		31F5EB150497406CE64052ED2176E483 /* VSpinGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VSpinGame.modulemap; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		23D5FD2F033B743FC6A65898ABA09BCA /* pin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pin.png; path = VSpinGame/Assets/pin.png; sourceTree = "<group>"; };
+		2AAC1AD55568F3EE16BAB92D779A88EA /* SpinningAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpinningAnimatable.swift; sourceTree = "<group>"; };
+		2F0F4AF91EF61F2F6162B044AE6A4897 /* SpinningWheelAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpinningWheelAnimator.swift; sourceTree = "<group>"; };
 		381C05347ACF3223E9E3F08C421D6E24 /* Pods-VSpinGame_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSpinGame_Example-dummy.m"; sourceTree = "<group>"; };
-		3C2158330F1E1679CD9FE8554AF0F577 /* VSpinGame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VSpinGame.swift; path = VSpinGame/Classes/VSpinGame.swift; sourceTree = "<group>"; };
-		41BCAB69B67F2FFA3E07AB702D88FA8A /* VSpinGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSpinGame-dummy.m"; sourceTree = "<group>"; };
-		465CCD176D5FFBEAA5F208C3CB97FE28 /* VSpinGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSpinGame.debug.xcconfig; sourceTree = "<group>"; };
+		3B4898827D35E90D8020750E31EA7BEC /* CollisionDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionDetector.swift; sourceTree = "<group>"; };
+		3DDF04A00C62A67C68F07697ED56C7E8 /* CAAnimation+Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAAnimation+Duration.swift"; sourceTree = "<group>"; };
+		4002063C618912E81477E007C984D386 /* String-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		41AB430DC44CC370760186AEC7A43F92 /* PinImageViewCollisionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PinImageViewCollisionAnimator.swift; sourceTree = "<group>"; };
+		44CCF729DE2110C54666BD7BF2D162C3 /* UIFont+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		479C70E3813EB9666EB754A10D94EB19 /* Pods-VSpinGame_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSpinGame_Tests-Info.plist"; sourceTree = "<group>"; };
 		4805C7B2E297AD40B22141BFBCBAB048 /* Pods-VSpinGame_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VSpinGame_Tests.modulemap"; sourceTree = "<group>"; };
+		48C1B81CC5DEE0E165D51BA1EF34859F /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		4D4207EC09027A69D34CD133651AD824 /* Pods-VSpinGame_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSpinGame_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E12C09EA92A043EA622CF89251BBF1F /* VSpinGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSpinGame.release.xcconfig; sourceTree = "<group>"; };
+		4E0C59A805A73599C9F5B89311399E32 /* ContinuousCollisionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuousCollisionCalculator.swift; sourceTree = "<group>"; };
+		4EBDEDEF1D36F0514692B0E37BF49426 /* Calc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		50D36B0A92661DF9996C11E0D44BC6A0 /* VSpinGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSpinGame.release.xcconfig; sourceTree = "<group>"; };
+		55B24C2EE0D891AAAD0F190E56610B64 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		55D212587F88033B62A5AB9B672A3F62 /* Pods-VSpinGame_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSpinGame_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E840FFE5406F5B5412AF2C63DE564DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8E98719025AA0781006C45F7 /* TextPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPreferences.swift; sourceTree = "<group>"; };
-		8E98719125AA0781006C45F7 /* VWheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VWheelView.swift; sourceTree = "<group>"; };
-		8E98719225AA0781006C45F7 /* SliceCalculating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceCalculating.swift; sourceTree = "<group>"; };
-		8E98719325AA0781006C45F7 /* ImpactFeedbackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackable.swift; sourceTree = "<group>"; };
-		8E98719425AA0781006C45F7 /* LinePreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePreferences.swift; sourceTree = "<group>"; };
-		8E98719525AA0781006C45F7 /* ImagePreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreferences.swift; sourceTree = "<group>"; };
-		8E98719725AA0781006C45F7 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		8E98719825AA0781006C45F7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		8E98719925AA0781006C45F7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		8E98719A25AA0781006C45F7 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		8E98719B25AA0781006C45F7 /* CGSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
-		8E98719C25AA0781006C45F7 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		8E98719D25AA0781006C45F7 /* SpinningAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningAnimatable.swift; sourceTree = "<group>"; };
-		8E98719E25AA0781006C45F7 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
-		8E98719F25AA0781006C45F7 /* PinImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinImageView.swift; sourceTree = "<group>"; };
-		8E9871A025AA0781006C45F7 /* VWheelLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VWheelLayer.swift; sourceTree = "<group>"; };
-		8E9871A125AA0781006C45F7 /* ImageDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDrawing.swift; sourceTree = "<group>"; };
-		8E9871A225AA0781006C45F7 /* SliceDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceDrawing.swift; sourceTree = "<group>"; };
-		8E9871A325AA0781006C45F7 /* VConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VConfiguration.swift; sourceTree = "<group>"; };
-		8E9871A525AA0781006C45F7 /* CAAnimation+Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAAnimation+Duration.swift"; sourceTree = "<group>"; };
-		8E9871A625AA0781006C45F7 /* CALayer+UpdateValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+UpdateValues.swift"; sourceTree = "<group>"; };
-		8E9871A725AA0781006C45F7 /* CAAnimationGroup+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAAnimationGroup+Builder.swift"; sourceTree = "<group>"; };
-		8E9871A825AA0781006C45F7 /* SpinningWheelAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningWheelAnimator.swift; sourceTree = "<group>"; };
-		8E9871A925AA0781006C45F7 /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
-		8E9871AA25AA0781006C45F7 /* Slice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slice.swift; sourceTree = "<group>"; };
-		8E9871AB25AA0781006C45F7 /* CurveTextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveTextDrawing.swift; sourceTree = "<group>"; };
-		8E9871AC25AA0781006C45F7 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawing.swift; sourceTree = "<group>"; };
-		8E9871AD25AA0781006C45F7 /* WheelMathCalculating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelMathCalculating.swift; sourceTree = "<group>"; };
-		8E9871AE25AA0781006C45F7 /* ShapeDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeDrawing.swift; sourceTree = "<group>"; };
-		8E9871B025AA0781006C45F7 /* ContinuousCollisionCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinuousCollisionCalculator.swift; sourceTree = "<group>"; };
-		8E9871B125AA0781006C45F7 /* PinImageViewCollisionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinImageViewCollisionAnimator.swift; sourceTree = "<group>"; };
-		8E9871B225AA0781006C45F7 /* CollisionCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionCalculator.swift; sourceTree = "<group>"; };
-		8E9871B325AA0781006C45F7 /* CollisionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionDetector.swift; sourceTree = "<group>"; };
-		8E9871B425AA0781006C45F7 /* CollisionDetectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionDetectable.swift; sourceTree = "<group>"; };
-		8E9871B525AA0781006C45F7 /* CollisionEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionEffect.swift; sourceTree = "<group>"; };
-		8EEE618625B59B1A002A2F54 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = VSpinGame/Assets/pin.png; sourceTree = "<group>"; };
+		591F0EB46F322D8255A96CD25C0D3940 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		59EDF19357A537073E0EF65F042717CE /* VSpinGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VSpinGame.modulemap; sourceTree = "<group>"; };
+		5A66F04937EFADBAE00DE0161C23B428 /* LinePreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinePreferences.swift; sourceTree = "<group>"; };
+		5E31E873AF5859CBE922587C5412D479 /* VSpinGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSpinGame-umbrella.h"; sourceTree = "<group>"; };
+		70A505B362A46C5308A2347A2D5923C1 /* VSpinGame.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VSpinGame.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83E71273FE49C7ABEFDA3D30F7A98363 /* VWheelLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VWheelLayer.swift; sourceTree = "<group>"; };
 		90499B85FBC4F2ADDC74591C25A3E934 /* Pods-VSpinGame_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSpinGame_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90AAAC244B6B62C0F61791961E06539C /* Pods-VSpinGame_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSpinGame_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9B442C18B97706AAC4AD36AC3C15AC20 /* VSpinGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VSpinGame-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20E3B7E3BF5516C17FB1800E2D391A6 /* VSpinGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VSpinGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94639A66F10DB9B837ADA39A48C6338E /* CurveTextDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurveTextDrawing.swift; sourceTree = "<group>"; };
+		964F7C5F64A295CCD69CC3563729E1D4 /* CAAnimationGroup+Builder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAAnimationGroup+Builder.swift"; sourceTree = "<group>"; };
+		98B769230DE645341F0D7FF1854BC774 /* ImagePreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePreferences.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F4A39A4B988E8C5CD6DF469BA2A388 /* TextDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDrawing.swift; sourceTree = "<group>"; };
+		A20E3B7E3BF5516C17FB1800E2D391A6 /* VSpinGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VSpinGame.framework; path = VSpinGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CF699FAC104B7387898576C5CEDF12 /* CollisionEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionEffect.swift; sourceTree = "<group>"; };
 		AA3499A8C93F89D0B725EE513AB9733B /* Pods-VSpinGame_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VSpinGame_Example.modulemap"; sourceTree = "<group>"; };
+		AB3B3BD90AD8D80B17DA396284CD46FD /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDrawing.swift; sourceTree = "<group>"; };
 		AC1D6DF3D6333AF629C36DF81C3410E6 /* Pods-VSpinGame_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSpinGame_Example-umbrella.h"; sourceTree = "<group>"; };
 		B39B7CFC61FCD0511D29BEBA4465B202 /* Pods-VSpinGame_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSpinGame_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7CCB79FB51CD843F09E7413F430E7A5 /* Pods_VSpinGame_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSpinGame_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B427AEB94AA9D7ACADE47D5790535B9C /* VSpinGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSpinGame.debug.xcconfig; sourceTree = "<group>"; };
+		B4D237FB35AE864F4BEE1736386C3E2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B680E699DE2E4D6FACAD9AFB07A04D1C /* CGSize+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
+		B7CCB79FB51CD843F09E7413F430E7A5 /* Pods_VSpinGame_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSpinGame_Tests.framework; path = "Pods-VSpinGame_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA92876982CB92CA93AB3ECCF7D6C17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB7278F9B635AADD8251467C65D80F4C /* VSpinGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSpinGame-dummy.m"; sourceTree = "<group>"; };
+		BE4BB0FDA93BB529BD6A34C0C970EF95 /* CollisionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionCalculator.swift; sourceTree = "<group>"; };
+		C21D8952787D04602167EB7FA16552A0 /* VSpinGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VSpinGame-Info.plist"; sourceTree = "<group>"; };
+		C56A8CECEA3E1D09A6550A25830D70ED /* CollisionDetectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionDetectable.swift; sourceTree = "<group>"; };
+		C880E070E8A3811B0C20EAB70E35C784 /* TextPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextPreferences.swift; sourceTree = "<group>"; };
+		C88EE021AF99676745AB85B4A2E751DC /* SliceDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SliceDrawing.swift; sourceTree = "<group>"; };
 		CE0EBF94A34AA43A65EECA80A03383CD /* Pods-VSpinGame_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSpinGame_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEB1A7D2B16687E64DE20FF20D035FAB /* VSpinGame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSpinGame-prefix.pch"; sourceTree = "<group>"; };
+		D01A1CD0F10F506ED571D3284B7DF0BD /* VConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VConfiguration.swift; sourceTree = "<group>"; };
+		D11D867660FCBF99EB8443ECE72CFF98 /* VWheelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VWheelView.swift; sourceTree = "<group>"; };
+		D3A4B3FF287E7FEA2E230DDC0D6E4254 /* pin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pin@2x.png"; path = "VSpinGame/Assets/pin@2x.png"; sourceTree = "<group>"; };
 		D59076C484122C0BB51F67879FD22BD9 /* Pods-VSpinGame_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSpinGame_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1F3EBB6DBD4E92A2B81B3D2D9E726DB /* ImpactFeedbackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackable.swift; sourceTree = "<group>"; };
 		E52F63E438F866E7EE027529810E0FF9 /* Pods-VSpinGame_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSpinGame_Tests-dummy.m"; sourceTree = "<group>"; };
 		E81C30C36FA927C168C9A49ED40F8B67 /* Pods-VSpinGame_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSpinGame_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E8C7A55619D35E63A41F06482EE68588 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		ED6908D416715100B2481D3EFD342ABE /* Pods_VSpinGame_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSpinGame_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E855FABAF0762442834A0CEC2CD32743 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EA485C294FF57AADCC549897656A8225 /* pin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pin@3x.png"; path = "VSpinGame/Assets/pin@3x.png"; sourceTree = "<group>"; };
+		EAEB4837D85F4307FE82E4CE795B209D /* VSpinGame.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VSpinGame.bundle; path = "VSpinGame-VSpinGame.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6908D416715100B2481D3EFD342ABE /* Pods_VSpinGame_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VSpinGame_Example.framework; path = "Pods-VSpinGame_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE755EFCBA0F4FCBE7A3128E75B631C /* ShapeDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShapeDrawing.swift; sourceTree = "<group>"; };
+		F1DC7EF910CB824E3326C58E873CA749 /* WheelMathCalculating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WheelMathCalculating.swift; sourceTree = "<group>"; };
+		F1F9805C4C3FFCCEE6F6B397B2CFAE6A /* CALayer+UpdateValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+UpdateValues.swift"; sourceTree = "<group>"; };
+		F560656FA0836B3D515DF34DA9270FAC /* Slice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slice.swift; sourceTree = "<group>"; };
 		FAF867B5CE331CA2D7182C75918E0617 /* Pods-VSpinGame_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSpinGame_Example-Info.plist"; sourceTree = "<group>"; };
+		FDB38EFD7230D4A5855DE7253F747850 /* PinImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PinImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A3ADDBF3E3E16E8BBBEE036D56449F3 /* Frameworks */ = {
+		4A364E6C9FC9D94F5B68E358889845F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8929AEBA08D192D239E5429908D74F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		755DB03A9A70608E9DEF72D4D4A4FF5E /* Frameworks */ = {
+		7748CF62154EA4F567F55702298D3412 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A835396D32454DABA0675FFACF0E32F1 /* Foundation.framework in Frameworks */,
+				508E62FC8D443A4E1A09098E0C9B0BEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4FA4683E0DD947948ADF0D9D641ADCF /* Frameworks */ = {
+		90A982D252797726700D325CACDF2CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F676A2DDFA37E615493A42EBEBA9DCE4 /* Foundation.framework in Frameworks */,
+				3E5260AFE29FC7BF02940BE7C08E13FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8D32D1AD5B2E3B5E40FC8AEDA26D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1EFC5B3775ABB3A67912F1E125D145 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16481EB68443E62D171A42AF1D92AF1F /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EBDEDEF1D36F0514692B0E37BF49426 /* Calc.swift */,
+				A3CF699FAC104B7387898576C5CEDF12 /* CollisionEffect.swift */,
+				94639A66F10DB9B837ADA39A48C6338E /* CurveTextDrawing.swift */,
+				AB3B3BD90AD8D80B17DA396284CD46FD /* ImageDrawing.swift */,
+				98B769230DE645341F0D7FF1854BC774 /* ImagePreferences.swift */,
+				E1F3EBB6DBD4E92A2B81B3D2D9E726DB /* ImpactFeedbackable.swift */,
+				5A66F04937EFADBAE00DE0161C23B428 /* LinePreferences.swift */,
+				FDB38EFD7230D4A5855DE7253F747850 /* PinImageView.swift */,
+				EEE755EFCBA0F4FCBE7A3128E75B631C /* ShapeDrawing.swift */,
+				F560656FA0836B3D515DF34DA9270FAC /* Slice.swift */,
+				12BA703A4F69D5A20949582CA243CA6E /* SliceCalculating.swift */,
+				C88EE021AF99676745AB85B4A2E751DC /* SliceDrawing.swift */,
+				2AAC1AD55568F3EE16BAB92D779A88EA /* SpinningAnimatable.swift */,
+				2F0F4AF91EF61F2F6162B044AE6A4897 /* SpinningWheelAnimator.swift */,
+				4002063C618912E81477E007C984D386 /* String-Extension.swift */,
+				A1F4A39A4B988E8C5CD6DF469BA2A388 /* TextDrawing.swift */,
+				C880E070E8A3811B0C20EAB70E35C784 /* TextPreferences.swift */,
+				D01A1CD0F10F506ED571D3284B7DF0BD /* VConfiguration.swift */,
+				83E71273FE49C7ABEFDA3D30F7A98363 /* VWheelLayer.swift */,
+				D11D867660FCBF99EB8443ECE72CFF98 /* VWheelView.swift */,
+				F1DC7EF910CB824E3326C58E873CA749 /* WheelMathCalculating.swift */,
+				9295931C19635779C32D224D4D74BA73 /* Ani+Detector */,
+				3A4E576E5BB686F5C57B8F60358B0A74 /* CAAnimation */,
+				FCFA059A46B8552FA66F15FBD21B2F47 /* Extension */,
+			);
+			name = "Base Classes";
+			path = "VSpinGame/Classes/Base Classes";
+			sourceTree = "<group>";
+		};
 		17538EA32F7B119C636EDF0AA080F8F8 /* Pods-VSpinGame_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +245,33 @@
 			path = "Target Support Files/Pods-VSpinGame_Example";
 			sourceTree = "<group>";
 		};
+		277C9178B1D5D124939491F13D498A0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10EDFAAF422598437388AFE4A05D815F /* ResourceBundle-VSpinGame-VSpinGame-Info.plist */,
+				59EDF19357A537073E0EF65F042717CE /* VSpinGame.modulemap */,
+				BB7278F9B635AADD8251467C65D80F4C /* VSpinGame-dummy.m */,
+				C21D8952787D04602167EB7FA16552A0 /* VSpinGame-Info.plist */,
+				05F3AAA15B687F1EC86E4C2D7676C7BE /* VSpinGame-prefix.pch */,
+				5E31E873AF5859CBE922587C5412D479 /* VSpinGame-umbrella.h */,
+				B427AEB94AA9D7ACADE47D5790535B9C /* VSpinGame.debug.xcconfig */,
+				50D36B0A92661DF9996C11E0D44BC6A0 /* VSpinGame.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VSpinGame";
+			sourceTree = "<group>";
+		};
+		3A4E576E5BB686F5C57B8F60358B0A74 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF04A00C62A67C68F07697ED56C7E8 /* CAAnimation+Duration.swift */,
+				964F7C5F64A295CCD69CC3563729E1D4 /* CAAnimationGroup+Builder.swift */,
+				F1F9805C4C3FFCCEE6F6B397B2CFAE6A /* CALayer+UpdateValues.swift */,
+			);
+			name = CAAnimation;
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
 		5380E60CC8D9613D03D8375B2468BC41 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +279,22 @@
 				5F32A62A9986D18013F806A6B162C0A0 /* Pods-VSpinGame_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A21B116DAEF021DF19A5CA5D0C2C847 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71BCFE787A0EB3754DC4E1797D38F3C /* VSpinGame */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5F32A62A9986D18013F806A6B162C0A0 /* Pods-VSpinGame_Tests */ = {
@@ -214,180 +313,112 @@
 			path = "Target Support Files/Pods-VSpinGame_Tests";
 			sourceTree = "<group>";
 		};
-		8358B16C3621A95BD92B00129C9D6E90 /* Pod */ = {
+		9295931C19635779C32D224D4D74BA73 /* Ani+Detector */ = {
 			isa = PBXGroup;
 			children = (
-				E8C7A55619D35E63A41F06482EE68588 /* LICENSE */,
-				8E840FFE5406F5B5412AF2C63DE564DD /* README.md */,
-				0C09C8616F879D5B7CF2A2CBC23E7F0D /* VSpinGame.podspec */,
+				BE4BB0FDA93BB529BD6A34C0C970EF95 /* CollisionCalculator.swift */,
+				C56A8CECEA3E1D09A6550A25830D70ED /* CollisionDetectable.swift */,
+				3B4898827D35E90D8020750E31EA7BEC /* CollisionDetector.swift */,
+				4E0C59A805A73599C9F5B89311399E32 /* ContinuousCollisionCalculator.swift */,
+				41AB430DC44CC370760186AEC7A43F92 /* PinImageViewCollisionAnimator.swift */,
+			);
+			name = "Ani+Detector";
+			path = "Ani+Detector";
+			sourceTree = "<group>";
+		};
+		A61EC0F5A9849054B19A563665BAE867 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BAA92876982CB92CA93AB3ECCF7D6C17 /* LICENSE */,
+				B4D237FB35AE864F4BEE1736386C3E2A /* README.md */,
+				70A505B362A46C5308A2347A2D5923C1 /* VSpinGame.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		8E98718F25AA0781006C45F7 /* Base Classes */ = {
+		A71BCFE787A0EB3754DC4E1797D38F3C /* VSpinGame */ = {
 			isa = PBXGroup;
 			children = (
-				8E98719025AA0781006C45F7 /* TextPreferences.swift */,
-				8E98719125AA0781006C45F7 /* VWheelView.swift */,
-				8E98719225AA0781006C45F7 /* SliceCalculating.swift */,
-				8E98719325AA0781006C45F7 /* ImpactFeedbackable.swift */,
-				8E98719425AA0781006C45F7 /* LinePreferences.swift */,
-				8E98719525AA0781006C45F7 /* ImagePreferences.swift */,
-				8E98719625AA0781006C45F7 /* Extension */,
-				8E98719D25AA0781006C45F7 /* SpinningAnimatable.swift */,
-				8E98719E25AA0781006C45F7 /* Calc.swift */,
-				8E98719F25AA0781006C45F7 /* PinImageView.swift */,
-				8E9871A025AA0781006C45F7 /* VWheelLayer.swift */,
-				8E9871A125AA0781006C45F7 /* ImageDrawing.swift */,
-				8E9871A225AA0781006C45F7 /* SliceDrawing.swift */,
-				8E9871A325AA0781006C45F7 /* VConfiguration.swift */,
-				8E9871A425AA0781006C45F7 /* CAAnimation */,
-				8E9871A825AA0781006C45F7 /* SpinningWheelAnimator.swift */,
-				8E9871A925AA0781006C45F7 /* String-Extension.swift */,
-				8E9871AA25AA0781006C45F7 /* Slice.swift */,
-				8E9871AB25AA0781006C45F7 /* CurveTextDrawing.swift */,
-				8E9871AC25AA0781006C45F7 /* TextDrawing.swift */,
-				8E9871AD25AA0781006C45F7 /* WheelMathCalculating.swift */,
-				8E9871AE25AA0781006C45F7 /* ShapeDrawing.swift */,
-				8E9871AF25AA0781006C45F7 /* Ani+Detector */,
-				8E9871B525AA0781006C45F7 /* CollisionEffect.swift */,
-			);
-			name = "Base Classes";
-			path = "VSpinGame/Classes/Base Classes";
-			sourceTree = "<group>";
-		};
-		8E98719625AA0781006C45F7 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				8E98719725AA0781006C45F7 /* UIFont+Extension.swift */,
-				8E98719825AA0781006C45F7 /* UIView+Extension.swift */,
-				8E98719925AA0781006C45F7 /* UIImage+Extension.swift */,
-				8E98719A25AA0781006C45F7 /* Color+Extension.swift */,
-				8E98719B25AA0781006C45F7 /* CGSize+Extension.swift */,
-				8E98719C25AA0781006C45F7 /* Array+Extension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		8E9871A425AA0781006C45F7 /* CAAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				8E9871A525AA0781006C45F7 /* CAAnimation+Duration.swift */,
-				8E9871A625AA0781006C45F7 /* CALayer+UpdateValues.swift */,
-				8E9871A725AA0781006C45F7 /* CAAnimationGroup+Builder.swift */,
-			);
-			path = CAAnimation;
-			sourceTree = "<group>";
-		};
-		8E9871AF25AA0781006C45F7 /* Ani+Detector */ = {
-			isa = PBXGroup;
-			children = (
-				8E9871B025AA0781006C45F7 /* ContinuousCollisionCalculator.swift */,
-				8E9871B125AA0781006C45F7 /* PinImageViewCollisionAnimator.swift */,
-				8E9871B225AA0781006C45F7 /* CollisionCalculator.swift */,
-				8E9871B325AA0781006C45F7 /* CollisionDetector.swift */,
-				8E9871B425AA0781006C45F7 /* CollisionDetectable.swift */,
-			);
-			path = "Ani+Detector";
-			sourceTree = "<group>";
-		};
-		A44129348F43CEDF758F04E8441237CB /* VSpinGame */ = {
-			isa = PBXGroup;
-			children = (
-				8EEE618625B59B1A002A2F54 /* pin.png */,
-				8E98718F25AA0781006C45F7 /* Base Classes */,
-				3C2158330F1E1679CD9FE8554AF0F577 /* VSpinGame.swift */,
-				8358B16C3621A95BD92B00129C9D6E90 /* Pod */,
-				CDB94EEC57D164D3A436F88EDDC50E65 /* Support Files */,
+				23D5FD2F033B743FC6A65898ABA09BCA /* pin.png */,
+				D3A4B3FF287E7FEA2E230DDC0D6E4254 /* pin@2x.png */,
+				EA485C294FF57AADCC549897656A8225 /* pin@3x.png */,
+				01DD4C7A55EF6037FDC9920FFA124EED /* VSpinGame.swift */,
+				16481EB68443E62D171A42AF1D92AF1F /* Base Classes */,
+				A61EC0F5A9849054B19A563665BAE867 /* Pod */,
+				277C9178B1D5D124939491F13D498A0B /* Support Files */,
 			);
 			name = VSpinGame;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AF422C5D970840939879DA5334D04728 /* Development Pods */ = {
+		B27AAB6E8268F00882F2BA4E9ED15228 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A44129348F43CEDF758F04E8441237CB /* VSpinGame */,
+				ED6908D416715100B2481D3EFD342ABE /* Pods_VSpinGame_Example.framework */,
+				B7CCB79FB51CD843F09E7413F430E7A5 /* Pods_VSpinGame_Tests.framework */,
+				EAEB4837D85F4307FE82E4CE795B209D /* VSpinGame.bundle */,
+				A20E3B7E3BF5516C17FB1800E2D391A6 /* VSpinGame.framework */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CDB94EEC57D164D3A436F88EDDC50E65 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				31F5EB150497406CE64052ED2176E483 /* VSpinGame.modulemap */,
-				41BCAB69B67F2FFA3E07AB702D88FA8A /* VSpinGame-dummy.m */,
-				9B442C18B97706AAC4AD36AC3C15AC20 /* VSpinGame-Info.plist */,
-				CEB1A7D2B16687E64DE20FF20D035FAB /* VSpinGame-prefix.pch */,
-				15C3593993C490CB4952D8637101190C /* VSpinGame-umbrella.h */,
-				465CCD176D5FFBEAA5F208C3CB97FE28 /* VSpinGame.debug.xcconfig */,
-				4E12C09EA92A043EA622CF89251BBF1F /* VSpinGame.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VSpinGame";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AF422C5D970840939879DA5334D04728 /* Development Pods */,
+				5A21B116DAEF021DF19A5CA5D0C2C847 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D17EA698F7401B72A52D5A43C0A0FD41 /* Products */,
+				B27AAB6E8268F00882F2BA4E9ED15228 /* Products */,
 				5380E60CC8D9613D03D8375B2468BC41 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D17EA698F7401B72A52D5A43C0A0FD41 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ED6908D416715100B2481D3EFD342ABE /* Pods_VSpinGame_Example.framework */,
-				B7CCB79FB51CD843F09E7413F430E7A5 /* Pods_VSpinGame_Tests.framework */,
-				A20E3B7E3BF5516C17FB1800E2D391A6 /* VSpinGame.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFA059A46B8552FA66F15FBD21B2F47 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				591F0EB46F322D8255A96CD25C0D3940 /* Array+Extension.swift */,
+				B680E699DE2E4D6FACAD9AFB07A04D1C /* CGSize+Extension.swift */,
+				48C1B81CC5DEE0E165D51BA1EF34859F /* Color+Extension.swift */,
+				44CCF729DE2110C54666BD7BF2D162C3 /* UIFont+Extension.swift */,
+				55B24C2EE0D891AAAD0F190E56610B64 /* UIImage+Extension.swift */,
+				E855FABAF0762442834A0CEC2CD32743 /* UIView+Extension.swift */,
+			);
+			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5B44FEC0CCC8543CBDE2CDC15D9C6A50 /* Headers */ = {
+		3B93B50E7A7A0E647A99FEDE9CEF271C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21CB65825A6BA1013897B4A3BB0C853C /* Pods-VSpinGame_Example-umbrella.h in Headers */,
+				30705A2982CB39099355B2B7C5DA232F /* Pods-VSpinGame_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B4077BF36F8774FF735BAE6E984BFD3 /* Headers */ = {
+		53BD374621D7882EDE4E56644E804D91 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8DB865956BA485A7F0B4DCF5BD8CD0 /* Pods-VSpinGame_Tests-umbrella.h in Headers */,
+				2F48B46DDF706590746BD20FC5D99668 /* VSpinGame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4BA1EEE95AB8FF479D22BA51B999546 /* Headers */ = {
+		5B45C2FB73B51C5B651653F513D9C801 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04558C88D6CA92D4095A69B095D3215E /* VSpinGame-umbrella.h in Headers */,
+				2FE94086F7D740C20FA0D1B9CF39D6C2 /* Pods-VSpinGame_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,17 +427,17 @@
 /* Begin PBXNativeTarget section */
 		06C07CF23FAA9DFFCFBB6B7191DF3492 /* Pods-VSpinGame_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F990C5009BCBF236E81167512A53F16 /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Tests" */;
+			buildConfigurationList = D662DC65CBC118F4B863AAAE80286355 /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Tests" */;
 			buildPhases = (
-				8B4077BF36F8774FF735BAE6E984BFD3 /* Headers */,
-				72E8065FDCB21787935C1C64AE6A57E9 /* Sources */,
-				F4FA4683E0DD947948ADF0D9D641ADCF /* Frameworks */,
-				67F7ABADF5F62851CC79DC6C0795ABEF /* Resources */,
+				3B93B50E7A7A0E647A99FEDE9CEF271C /* Headers */,
+				A2BF8670F9619DF04E9790C7110345C9 /* Sources */,
+				90A982D252797726700D325CACDF2CB4 /* Frameworks */,
+				E536E595FC3D3FBCD4785FEED0874E23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F76F26A4EDB92AB00E003894670DEF67 /* PBXTargetDependency */,
+				1211CB0F4389281C063550CF6B55C274 /* PBXTargetDependency */,
 			);
 			name = "Pods-VSpinGame_Tests";
 			productName = "Pods-VSpinGame_Tests";
@@ -415,16 +446,17 @@
 		};
 		6162B9FF358276EBC229F480BF132421 /* VSpinGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28237D32E4E3EA8654C57C684C3D85E1 /* Build configuration list for PBXNativeTarget "VSpinGame" */;
+			buildConfigurationList = 970824D617427EC52919133EF21B2BA2 /* Build configuration list for PBXNativeTarget "VSpinGame" */;
 			buildPhases = (
-				B4BA1EEE95AB8FF479D22BA51B999546 /* Headers */,
-				458F28BADDA0D60D73A0EFACFE07F9B9 /* Sources */,
-				755DB03A9A70608E9DEF72D4D4A4FF5E /* Frameworks */,
-				5FA9EF78D5A59C675DB774206DE1DD9E /* Resources */,
+				53BD374621D7882EDE4E56644E804D91 /* Headers */,
+				FEC6D59830895DE30BB1B165F98D80A8 /* Sources */,
+				AE8D32D1AD5B2E3B5E40FC8AEDA26D4B /* Frameworks */,
+				A9585D4CA9C45726C79F475242F774AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C787AA79B36D5831460F152DE48D6A27 /* PBXTargetDependency */,
 			);
 			name = VSpinGame;
 			productName = VSpinGame;
@@ -433,22 +465,39 @@
 		};
 		7B023B53AE7DA2AE71BFE1B4D4078707 /* Pods-VSpinGame_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EC4E5A9722B6C44AC5E052DC1354DDB /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Example" */;
+			buildConfigurationList = 2BE87DA94FE2804B3F889321F3479B4F /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Example" */;
 			buildPhases = (
-				5B44FEC0CCC8543CBDE2CDC15D9C6A50 /* Headers */,
-				F6F467D8BA3F3E437EE64E1D3016070E /* Sources */,
-				1A3ADDBF3E3E16E8BBBEE036D56449F3 /* Frameworks */,
-				7B844B5F4A244B9B43D5D25B29FD7F12 /* Resources */,
+				5B45C2FB73B51C5B651653F513D9C801 /* Headers */,
+				8D4FB22323C42C810218099942917627 /* Sources */,
+				7748CF62154EA4F567F55702298D3412 /* Frameworks */,
+				8EB10EA2B7974111420F689385D0654C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C441F4DBB288EEDCBA1B4968D1BA1428 /* PBXTargetDependency */,
+				5CC845435852BD6E3F9D3577E000DBA8 /* PBXTargetDependency */,
 			);
 			name = "Pods-VSpinGame_Example";
 			productName = "Pods-VSpinGame_Example";
 			productReference = ED6908D416715100B2481D3EFD342ABE /* Pods_VSpinGame_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		CC5F301785D5DE4C7BCD86AF7EA4E811 /* VSpinGame-VSpinGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4408D296C819E06F2557851E18F9128E /* Build configuration list for PBXNativeTarget "VSpinGame-VSpinGame" */;
+			buildPhases = (
+				B37741D6B4F37C7830A77B1F33FCB49B /* Sources */,
+				4A364E6C9FC9D94F5B68E358889845F6 /* Frameworks */,
+				B36F8DAF1683BEC4AB7A33D75D9E335B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VSpinGame-VSpinGame";
+			productName = "VSpinGame-VSpinGame";
+			productReference = EAEB4837D85F4307FE82E4CE795B209D /* VSpinGame.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -468,34 +517,48 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D17EA698F7401B72A52D5A43C0A0FD41 /* Products */;
+			productRefGroup = B27AAB6E8268F00882F2BA4E9ED15228 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7B023B53AE7DA2AE71BFE1B4D4078707 /* Pods-VSpinGame_Example */,
 				06C07CF23FAA9DFFCFBB6B7191DF3492 /* Pods-VSpinGame_Tests */,
 				6162B9FF358276EBC229F480BF132421 /* VSpinGame */,
+				CC5F301785D5DE4C7BCD86AF7EA4E811 /* VSpinGame-VSpinGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5FA9EF78D5A59C675DB774206DE1DD9E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EEE618725B59B1A002A2F54 /* pin.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F7ABADF5F62851CC79DC6C0795ABEF /* Resources */ = {
+		8EB10EA2B7974111420F689385D0654C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B844B5F4A244B9B43D5D25B29FD7F12 /* Resources */ = {
+		A9585D4CA9C45726C79F475242F774AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7B8B814ED52834485E1F37226D86F9 /* pin.png in Resources */,
+				8B91427742681C6D5FF68B59965859B2 /* pin@2x.png in Resources */,
+				A9CE20E8922E7652F731D53289B606E9 /* pin@3x.png in Resources */,
+				EECCCC9452B282BACC86E4A37F7CB5AA /* VSpinGame.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36F8DAF1683BEC4AB7A33D75D9E335B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CFCFAFE047D995D44EF229B9B9F06 /* pin.png in Resources */,
+				B9079221FC7037D404859BB48C8791F7 /* pin@2x.png in Resources */,
+				1A8F2D15109887B2AA9067F1C4ED316C /* pin@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E536E595FC3D3FBCD4785FEED0874E23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,186 +568,102 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		458F28BADDA0D60D73A0EFACFE07F9B9 /* Sources */ = {
+		8D4FB22323C42C810218099942917627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9871B925AA0781006C45F7 /* ImpactFeedbackable.swift in Sources */,
-				5F1668D3F756399DC85993C9AA0E1913 /* VSpinGame.swift in Sources */,
-				8E9871C925AA0781006C45F7 /* CAAnimation+Duration.swift in Sources */,
-				8E9871D325AA0781006C45F7 /* ContinuousCollisionCalculator.swift in Sources */,
-				8E9871CF25AA0781006C45F7 /* CurveTextDrawing.swift in Sources */,
-				8E9871C525AA0781006C45F7 /* VWheelLayer.swift in Sources */,
-				8E9871B725AA0781006C45F7 /* VWheelView.swift in Sources */,
-				8E9871B625AA0781006C45F7 /* TextPreferences.swift in Sources */,
-				8E9871D025AA0781006C45F7 /* TextDrawing.swift in Sources */,
-				8E9871C625AA0781006C45F7 /* ImageDrawing.swift in Sources */,
-				4719BAA1949E67EAC4609AE0FC422650 /* VSpinGame-dummy.m in Sources */,
-				8E9871D225AA0781006C45F7 /* ShapeDrawing.swift in Sources */,
-				8E9871BA25AA0781006C45F7 /* LinePreferences.swift in Sources */,
-				8E9871C825AA0781006C45F7 /* VConfiguration.swift in Sources */,
-				8E9871CA25AA0781006C45F7 /* CALayer+UpdateValues.swift in Sources */,
-				8E9871D125AA0781006C45F7 /* WheelMathCalculating.swift in Sources */,
-				8E9871BC25AA0781006C45F7 /* UIFont+Extension.swift in Sources */,
-				8E9871D725AA0781006C45F7 /* CollisionDetectable.swift in Sources */,
-				8E9871CB25AA0781006C45F7 /* CAAnimationGroup+Builder.swift in Sources */,
-				8E9871C225AA0781006C45F7 /* SpinningAnimatable.swift in Sources */,
-				8E9871C325AA0781006C45F7 /* Calc.swift in Sources */,
-				8E9871CC25AA0781006C45F7 /* SpinningWheelAnimator.swift in Sources */,
-				8E9871BF25AA0781006C45F7 /* Color+Extension.swift in Sources */,
-				8E9871D525AA0781006C45F7 /* CollisionCalculator.swift in Sources */,
-				8E9871C425AA0781006C45F7 /* PinImageView.swift in Sources */,
-				8E9871C725AA0781006C45F7 /* SliceDrawing.swift in Sources */,
-				8E9871D625AA0781006C45F7 /* CollisionDetector.swift in Sources */,
-				8E9871BB25AA0781006C45F7 /* ImagePreferences.swift in Sources */,
-				8E9871BD25AA0781006C45F7 /* UIView+Extension.swift in Sources */,
-				8E9871D425AA0781006C45F7 /* PinImageViewCollisionAnimator.swift in Sources */,
-				8E9871C025AA0781006C45F7 /* CGSize+Extension.swift in Sources */,
-				8E9871CE25AA0781006C45F7 /* Slice.swift in Sources */,
-				8E9871D825AA0781006C45F7 /* CollisionEffect.swift in Sources */,
-				8E9871CD25AA0781006C45F7 /* String-Extension.swift in Sources */,
-				8E9871C125AA0781006C45F7 /* Array+Extension.swift in Sources */,
-				8E9871BE25AA0781006C45F7 /* UIImage+Extension.swift in Sources */,
-				8E9871B825AA0781006C45F7 /* SliceCalculating.swift in Sources */,
+				1742608D763455E230505AAF382DC528 /* Pods-VSpinGame_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72E8065FDCB21787935C1C64AE6A57E9 /* Sources */ = {
+		A2BF8670F9619DF04E9790C7110345C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC73CE970B6CD926FB2A3D5CDA93DBC /* Pods-VSpinGame_Tests-dummy.m in Sources */,
+				3739BFA0CF7C8420B73CAC15A13A3790 /* Pods-VSpinGame_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6F467D8BA3F3E437EE64E1D3016070E /* Sources */ = {
+		B37741D6B4F37C7830A77B1F33FCB49B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CC44E749B42721763936108BFDE004 /* Pods-VSpinGame_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC6D59830895DE30BB1B165F98D80A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570D10053F1C33D00D2D4D25E047DC10 /* Array+Extension.swift in Sources */,
+				F4FD32B23F4E3223E9E8EC91003AD4BE /* CAAnimation+Duration.swift in Sources */,
+				3D2E25DAC83DD41AB2A46E651857BDE8 /* CAAnimationGroup+Builder.swift in Sources */,
+				F41660AD31120898AF61FBAE090D7AD5 /* CALayer+UpdateValues.swift in Sources */,
+				5DE9EEBFAC94D82BE3DE97C01A88E367 /* Calc.swift in Sources */,
+				3DA8FDAA5C0D5C767FAF10260ED0F170 /* CGSize+Extension.swift in Sources */,
+				BA5E9C2CAEF80C7CAC9746EE97EF36B1 /* CollisionCalculator.swift in Sources */,
+				56DC28686E8B8E553DE808F1D0D8BEC1 /* CollisionDetectable.swift in Sources */,
+				A3455FFCB2999564E1F9F47AE7C5EF81 /* CollisionDetector.swift in Sources */,
+				366BF18A94E056E826E8042AD612D7AD /* CollisionEffect.swift in Sources */,
+				BEAC614430C2893E278AC600AAF3F0DB /* Color+Extension.swift in Sources */,
+				63B1AA293A5826007B3C39A929F9DE60 /* ContinuousCollisionCalculator.swift in Sources */,
+				6AB634A1EF3B694206868DEBFF818B63 /* CurveTextDrawing.swift in Sources */,
+				257B39CA95408E6079E8745127133CC0 /* ImageDrawing.swift in Sources */,
+				B187C71C5395965721BECD6EA12E3168 /* ImagePreferences.swift in Sources */,
+				14117221E7CF0AFA753E29D419110420 /* ImpactFeedbackable.swift in Sources */,
+				2A214C05139A47859EF7435DAF37F606 /* LinePreferences.swift in Sources */,
+				9F10590382F16787DA0BAF7A6830B02C /* PinImageView.swift in Sources */,
+				D59D0A11F09DB50E30C01A8ECF34A694 /* PinImageViewCollisionAnimator.swift in Sources */,
+				D73D3E22CEBB00338438E34302E2AC05 /* ShapeDrawing.swift in Sources */,
+				CC6EC21CA42B1246970AA0F84B0F244A /* Slice.swift in Sources */,
+				0CF554329510B4B1AB146E7426840197 /* SliceCalculating.swift in Sources */,
+				6ACC5A037446BD80C0C8F9FC818843EE /* SliceDrawing.swift in Sources */,
+				F181FD433BEA2C3B11B14D18A67B607B /* SpinningAnimatable.swift in Sources */,
+				1BC7B0E817248FC9C5473C010C9EDC78 /* SpinningWheelAnimator.swift in Sources */,
+				7D51D8E313D02BF992BB71C92250C81E /* String-Extension.swift in Sources */,
+				F04565BE879881500748B3BDCD8842C5 /* TextDrawing.swift in Sources */,
+				FB894F2D691C709ADC3C00EC86B6D20D /* TextPreferences.swift in Sources */,
+				5DDC986F03A680B414EC5A5D226DB1C7 /* UIFont+Extension.swift in Sources */,
+				B6A1E9C77502E5BFBC227177B7366B02 /* UIImage+Extension.swift in Sources */,
+				E7A08BD58BC88A1C06C5A5192A6C4FAD /* UIView+Extension.swift in Sources */,
+				9883940B414F1351DEDA8E9955DF49D9 /* VConfiguration.swift in Sources */,
+				9169D9AF4C72912FCAB2A0967620415A /* VSpinGame-dummy.m in Sources */,
+				A0192EC0E48B94D9E0685A0FAE640D53 /* VSpinGame.swift in Sources */,
+				60B5D17B7727AC8716A0D0460839E463 /* VWheelLayer.swift in Sources */,
+				2B1EA498BECF0197639950B4DCA14F0F /* VWheelView.swift in Sources */,
+				ADEC3D97D5A444B36557FB2D72437AB9 /* WheelMathCalculating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C441F4DBB288EEDCBA1B4968D1BA1428 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VSpinGame;
-			target = 6162B9FF358276EBC229F480BF132421 /* VSpinGame */;
-			targetProxy = 3C0BB58B83777575CBEB59187C3AA975 /* PBXContainerItemProxy */;
-		};
-		F76F26A4EDB92AB00E003894670DEF67 /* PBXTargetDependency */ = {
+		1211CB0F4389281C063550CF6B55C274 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VSpinGame_Example";
 			target = 7B023B53AE7DA2AE71BFE1B4D4078707 /* Pods-VSpinGame_Example */;
-			targetProxy = 8031E5587C358CB593E4E5BBD3CEFEF1 /* PBXContainerItemProxy */;
+			targetProxy = 5CA0EF2F361CE52A0BDF227839DC9A8B /* PBXContainerItemProxy */;
+		};
+		5CC845435852BD6E3F9D3577E000DBA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VSpinGame;
+			target = 6162B9FF358276EBC229F480BF132421 /* VSpinGame */;
+			targetProxy = 8CD29766A22F6946E603E658005D7D9C /* PBXContainerItemProxy */;
+		};
+		C787AA79B36D5831460F152DE48D6A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VSpinGame-VSpinGame";
+			target = CC5F301785D5DE4C7BCD86AF7EA4E811 /* VSpinGame-VSpinGame */;
+			targetProxy = 22089761BED421779434EE463BD1B0C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5EB6523E4B44B356D50A7806A5D01A9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81C30C36FA927C168C9A49ED40F8B67 /* Pods-VSpinGame_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83BE960703336AB9585CD35F920F204F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 465CCD176D5FFBEAA5F208C3CB97FE28 /* VSpinGame.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VSpinGame/VSpinGame-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VSpinGame/VSpinGame-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VSpinGame/VSpinGame.modulemap";
-				PRODUCT_MODULE_NAME = VSpinGame;
-				PRODUCT_NAME = VSpinGame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D127B7A6598C0C789F06F9C4F21A258 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEB82CEE41A4FC0407BCC7A9609C3D1 /* Pods-VSpinGame_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Tests/Pods-VSpinGame_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Tests/Pods-VSpinGame_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -707,65 +686,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -804,11 +725,107 @@
 			};
 			name = Debug;
 		};
-		B32848DEE959F4CAB5217CF68B65B02B /* Release */ = {
+		3C80D3885077B15FCF703F081710EBFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E12C09EA92A043EA622CF89251BBF1F /* VSpinGame.release.xcconfig */;
+			baseConfigurationReference = 50D36B0A92661DF9996C11E0D44BC6A0 /* VSpinGame.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VSpinGame";
+				IBSC_MODULE = VSpinGame;
+				INFOPLIST_FILE = "Target Support Files/VSpinGame/ResourceBundle-VSpinGame-VSpinGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VSpinGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4F20A0D73E85A9BC06EB0B1EFC1C6E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81C30C36FA927C168C9A49ED40F8B67 /* Pods-VSpinGame_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72A213B854C17FF8F48CE197891BD388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4207EC09027A69D34CD133651AD824 /* Pods-VSpinGame_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C2EC8BA6FC5423DA245E56FA4AFC5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B427AEB94AA9D7ACADE47D5790535B9C /* VSpinGame.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VSpinGame";
+				IBSC_MODULE = VSpinGame;
+				INFOPLIST_FILE = "Target Support Files/VSpinGame/ResourceBundle-VSpinGame-VSpinGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VSpinGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9A87E436355839F00E66281DDB7412E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D36B0A92661DF9996C11E0D44BC6A0 /* VSpinGame.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -836,12 +853,11 @@
 			};
 			name = Release;
 		};
-		FCF2075AFF2C1D557B82F665CF2B6A4E /* Release */ = {
+		A376F336DD61BAF36F9CE0C149AB6EDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90499B85FBC4F2ADDC74591C25A3E934 /* Pods-VSpinGame_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -870,12 +886,72 @@
 			};
 			name = Release;
 		};
-		FF6F1BEE855319D30015D0C26EDAB629 /* Debug */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D4207EC09027A69D34CD133651AD824 /* Pods-VSpinGame_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ED0A9C59F3C1C1A742B21EC6ED4F1C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B427AEB94AA9D7ACADE47D5790535B9C /* VSpinGame.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -884,12 +960,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/VSpinGame/VSpinGame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSpinGame/VSpinGame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSpinGame/VSpinGame.modulemap";
+				PRODUCT_MODULE_NAME = VSpinGame;
+				PRODUCT_NAME = VSpinGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEF705D98A6DA36897CAB9F000F87C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEB82CEE41A4FC0407BCC7A9609C3D1 /* Pods-VSpinGame_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSpinGame_Tests/Pods-VSpinGame_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Example/Pods-VSpinGame_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-VSpinGame_Tests/Pods-VSpinGame_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -906,11 +1013,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28237D32E4E3EA8654C57C684C3D85E1 /* Build configuration list for PBXNativeTarget "VSpinGame" */ = {
+		2BE87DA94FE2804B3F889321F3479B4F /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83BE960703336AB9585CD35F920F204F /* Debug */,
-				B32848DEE959F4CAB5217CF68B65B02B /* Release */,
+				72A213B854C17FF8F48CE197891BD388 /* Debug */,
+				4F20A0D73E85A9BC06EB0B1EFC1C6E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4408D296C819E06F2557851E18F9128E /* Build configuration list for PBXNativeTarget "VSpinGame-VSpinGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2EC8BA6FC5423DA245E56FA4AFC5EE /* Debug */,
+				3C80D3885077B15FCF703F081710EBFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -918,26 +1034,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EC4E5A9722B6C44AC5E052DC1354DDB /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Example" */ = {
+		970824D617427EC52919133EF21B2BA2 /* Build configuration list for PBXNativeTarget "VSpinGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6F1BEE855319D30015D0C26EDAB629 /* Debug */,
-				5EB6523E4B44B356D50A7806A5D01A9D /* Release */,
+				ED0A9C59F3C1C1A742B21EC6ED4F1C08 /* Debug */,
+				9A87E436355839F00E66281DDB7412E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F990C5009BCBF236E81167512A53F16 /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Tests" */ = {
+		D662DC65CBC118F4B863AAAE80286355 /* Build configuration list for PBXNativeTarget "Pods-VSpinGame_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D127B7A6598C0C789F06F9C4F21A258 /* Debug */,
-				FCF2075AFF2C1D557B82F665CF2B6A4E /* Release */,
+				FEF705D98A6DA36897CAB9F000F87C58 /* Debug */,
+				A376F336DD61BAF36F9CE0C149AB6EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

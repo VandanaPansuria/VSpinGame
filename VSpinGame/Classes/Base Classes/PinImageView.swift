@@ -65,10 +65,17 @@ extension PinImageView {
     func image(name: String?) {
         guard let imageName = name, imageName != "" else {
             let bundle = Bundle(for: VSpinGame.self)
-            self.image = UIImage(named: "pin", in: bundle, compatibleWith: nil)
+            self.image = self.bundledImage(named: "pin")//UIImage(named: "pin", in: bundle, compatibleWith: nil)
             return
         }
         self.image = UIImage(named: imageName)
+    }
+    func bundledImage(named: String) -> UIImage? {
+        let image = UIImage(named: named)
+        if image == nil {
+            return UIImage(named: named, in: Bundle(for: VSpinGame.classForCoder()), compatibleWith: nil)
+        } // Replace MyBasePodClass with yours
+        return image
     }
     func configure(with preferences: VConfiguration.PinImageViewPreferences?) {
         self.backgroundColor = preferences?.backgroundColor
